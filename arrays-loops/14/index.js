@@ -1,0 +1,10 @@
+const arrayA = [5, 32, 3, 44, 1];
+const arrayB = [57, 4, 21, 2, 13];
+
+
+for (let i = 0; i < arrayA.length; i++) {
+    const menorValor = arrayA[i] <  arrayB[i] ? arrayA[i] : arrayB[i] 
+    console.log(menorValor)
+}
+
+
